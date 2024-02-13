@@ -1,6 +1,6 @@
 #Revmoe pass and complete the cat class
 class Cat():
-    pass
+    
 
 
 #Create objects here
