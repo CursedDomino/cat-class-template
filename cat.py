@@ -1,9 +1,22 @@
 #Revmoe pass and complete the cat class
 class Cat():
-    
+    def __init__(self):
+        self.name = "Unknown"
+        self.age = 0
 
+    def speak(self):
+        print("Meow")
 
-#Create objects here
-#These should NOT be indented inside the class
+stella = Cat()
+garfield = Cat()
 
-#test workflow
+stella.name = "Stella"
+stella.age = 7
+
+garfield.name = "Garfield"
+garfield.age = 50
+
+print(garfield.name, garfield.age, stella.name, stella.age)
+
+stella.speak()
+garfield.speak()
