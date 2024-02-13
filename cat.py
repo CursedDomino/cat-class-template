@@ -5,7 +5,7 @@ class Cat():
         self.age = 0
 
     def speak(self):
-        print("Meow")
+        return "Meow"
 
 stella = Cat()
 garfield = Cat()
